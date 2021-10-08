@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1632.0, 105.0, 1447.0, 941.0 ],
+		"rect" : [ 34.0, 79.0, 1242.0, 739.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-35",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 218.0, 285.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -48,6 +61,7 @@
 					"extract" : 1,
 					"id" : "obj-65",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.Signal Mixer.maxpat",
 					"numinlets" : 4,
@@ -70,6 +84,7 @@
 					"extract" : 1,
 					"id" : "obj-64",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.Chorus.maxpat",
 					"numinlets" : 1,
@@ -92,6 +107,7 @@
 					"extract" : 1,
 					"id" : "obj-62",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.Granular.maxpat",
 					"numinlets" : 4,
@@ -114,6 +130,7 @@
 					"extract" : 1,
 					"id" : "obj-61",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.CV LFO.maxpat",
 					"numinlets" : 2,
@@ -182,7 +199,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 188.0, 294.0, 34.0, 22.0 ],
+					"patching_rect" : [ 188.0, 306.0, 34.0, 22.0 ],
 					"text" : "*~ 2."
 				}
 
@@ -255,7 +272,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 803.5, 409.5, 158.0, 22.0 ],
+					"patching_rect" : [ 823.5, 409.5, 158.0, 22.0 ],
 					"text" : "pattrforward bp.FM[1]::Ratio"
 				}
 
@@ -292,7 +309,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 778.5, 193.5, 643.0, 93.0 ],
-					"text" : "95% consensus",
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
+					"text" : "74% consensus",
 					"textcolor" : [ 0.992156862745098, 1.0, 0.0, 1.0 ],
 					"textjustification" : 0
 				}
@@ -369,6 +393,7 @@
 					"extract" : 1,
 					"id" : "obj-45",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.FM.maxpat",
 					"numinlets" : 2,
@@ -391,6 +416,7 @@
 					"extract" : 1,
 					"id" : "obj-47",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.VCA.maxpat",
 					"numinlets" : 2,
@@ -437,6 +463,7 @@
 					"extract" : 1,
 					"id" : "obj-21",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.Signal Mixer.maxpat",
 					"numinlets" : 4,
@@ -583,6 +610,7 @@
 					"extract" : 1,
 					"id" : "obj-15",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.Recordr.maxpat",
 					"numinlets" : 2,
@@ -604,6 +632,7 @@
 					"extract" : 1,
 					"id" : "obj-14",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.Samplr.maxpat",
 					"numinlets" : 4,
@@ -626,6 +655,7 @@
 					"extract" : 1,
 					"id" : "obj-8",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.Feedback Delay.maxpat",
 					"numinlets" : 1,
@@ -648,6 +678,7 @@
 					"extract" : 1,
 					"id" : "obj-7",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.VCA.maxpat",
 					"numinlets" : 2,
@@ -670,6 +701,7 @@
 					"extract" : 1,
 					"id" : "obj-6",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.Stereo.maxpat",
 					"numinlets" : 2,
@@ -691,6 +723,7 @@
 					"extract" : 1,
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.ASR.maxpat",
 					"numinlets" : 1,
@@ -713,6 +746,7 @@
 					"extract" : 1,
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.LPF.maxpat",
 					"numinlets" : 5,
@@ -735,6 +769,7 @@
 					"extract" : 1,
 					"id" : "obj-3",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.FM.maxpat",
 					"numinlets" : 2,
@@ -757,6 +792,7 @@
 					"extract" : 1,
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.MIDI In.maxpat",
 					"numinlets" : 0,
@@ -779,6 +815,7 @@
 					"extract" : 1,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.MIDI to Signal.maxpat",
 					"numinlets" : 1,
@@ -833,7 +870,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"midpoints" : [ 27.5, 303.0, 154.5, 303.0, 154.5, 41.0, 197.5, 41.0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -841,7 +878,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1013,6 +1050,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 1 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -1640,7 +1684,7 @@
 		"styles" : [ 			{
 				"name" : "Manuel1",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial Bold" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1650,8 +1694,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Arial Bold" ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
