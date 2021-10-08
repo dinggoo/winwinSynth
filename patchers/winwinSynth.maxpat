@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1242.0, 739.0 ],
+		"rect" : [ 55.0, 81.0, 1242.0, 739.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,16 @@
 		"subpatcher_template" : "Untitled",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1044.0, 306.0, 142.0, 142.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-35",
@@ -316,7 +326,7 @@
 
 					}
 ,
-					"text" : "74% consensus",
+					"text" : "12% consensus",
 					"textcolor" : [ 0.992156862745098, 1.0, 0.0, 1.0 ],
 					"textjustification" : 0
 				}
